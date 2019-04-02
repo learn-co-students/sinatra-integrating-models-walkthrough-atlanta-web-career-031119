@@ -2,7 +2,7 @@ class TextAnalyzer
     def initialize(text)
         @text=text.downcase
     end
-    attr_reader: :text
+    attr_reader :text
     def count_of_words
         words=text.split(" ")
         return words.length
